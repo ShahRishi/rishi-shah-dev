@@ -23,35 +23,29 @@ const Hero = () => (
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
-          alt="Avatar image"
+          src="/assets/images/me.jpg"
+          alt="Rishi Shah"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://github.com/ShahRishi">
             <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
+              src="/assets/images/github.png"
+              alt="Github icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/rishi-shah108/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
+              src="/assets/images/linkedin.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="https://rishishah.myportfolio.com/">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/assets/images/camera.png"
+              alt="Camera icon"
             />
           </a>
         </>
