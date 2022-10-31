@@ -34,8 +34,7 @@ const ProjectList = () => (
       <Project
         name="Balance"
         description="Prototyped and pitched fall detection home monitoring
-        tool using TensorFlow pose estimation. Awarded 3rd place at MIT Hacking Medicine. Demo video
-        available in the Github repositoiry."
+        tool using TensorFlow pose estimation. Awarded 3rd place at MIT Hacking Medicine."
         link="/"
         img={{ src: '/assets/images/old-man.png', alt: 'Project Balance' }}
         category={
@@ -65,11 +64,11 @@ const ProjectList = () => (
       <Project
         name="Diabetes Risk Estimator"
         description="Used GridSearch to tune Random Forest and neural network classification models. Model
-        output was used to estimate diabetes risk. Award 1st place at BU Minihacks for Good."
+        output was used to estimate diabetes risk. Awarded 1st place at BU Minihacks for Good."
         link="https://github.com/ShahRishi/minihacks-2022"
         img={{
           src: '/assets/images/type-2.png',
-          alt: 'Project Wikipedia Game Bot',
+          alt: 'Project Diabetes Risk Estimator',
         }}
         category={
           <>
@@ -82,12 +81,11 @@ const ProjectList = () => (
 
       <Project
         name="RAPIDS.ai Docstring Validation"
-        description="Contributing to automating docstring valida-
-        tion"
-        link="https://github.com/ShahRishi/minihacks-2022"
+        description="Currently contributing to automating docstring validation and edits using numpydoc validation."
+        link="https://github.com/ShahRishi/enable-nympydoc-validation"
         img={{
-          src: '/assets/images/type-2.png',
-          alt: 'Project Wikipedia Game Bot',
+          src: '/assets/images/browser.png',
+          alt: 'Projejct RAPIDS.ai Docstring Validation',
         }}
         category={
           <>

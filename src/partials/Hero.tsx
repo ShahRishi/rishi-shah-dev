@@ -15,7 +15,7 @@ const Hero = () => (
       }
       description={
         <>
-          Junior at Boston Univeristy studying Computer Science and Medical
+          Junior at Boston University studying Computer Science and Medical
           Science looking for opportunities in backend and/or systems
           development
         </>
@@ -31,22 +31,13 @@ const Hero = () => (
       socialButtons={
         <>
           <a href="https://github.com/ShahRishi">
-            <HeroSocial
-              src="/assets/images/github.png"
-              alt="Github icon"
-            />
+            <HeroSocial src="/assets/images/github.png" alt="Github icon" />
           </a>
           <a href="https://www.linkedin.com/in/rishi-shah108/">
-            <HeroSocial
-              src="/assets/images/linkedin.png"
-              alt="Linkedin icon"
-            />
+            <HeroSocial src="/assets/images/linkedin.png" alt="Linkedin icon" />
           </a>
           <a href="https://rishishah.myportfolio.com/">
-            <HeroSocial
-              src="/assets/images/camera.png"
-              alt="Camera icon"
-            />
+            <HeroSocial src="/assets/images/camera.png" alt="Camera icon" />
           </a>
         </>
       }
