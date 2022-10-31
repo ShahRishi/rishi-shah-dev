@@ -43,7 +43,6 @@ const ProjectList = () => (
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
             <Tags color={ColorTags.YELLOW}>TensorFlow</Tags>
             <Tags color={ColorTags.EMERALD}>Hackathon</Tags>
-            
           </>
         }
       />
@@ -52,7 +51,10 @@ const ProjectList = () => (
         description="Used BFS to create a program that finds the guaranteed shortest path between two Wikipedia
         pages."
         link="https://github.com/ShahRishi/wikipedia-game-bot"
-        img={{ src: '/assets/images/wikipedia.png', alt: 'Project Wikipedia Game Bot' }}
+        img={{
+          src: '/assets/images/wikipedia.png',
+          alt: 'Project Wikipedia Game Bot',
+        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
@@ -65,7 +67,10 @@ const ProjectList = () => (
         description="Used GridSearch to tune Random Forest and neural network classification models. Model
         output was used to estimate diabetes risk. Award 1st place at BU Minihacks for Good."
         link="https://github.com/ShahRishi/minihacks-2022"
-        img={{ src: '/assets/images/type-2.png', alt: 'Project Wikipedia Game Bot' }}
+        img={{
+          src: '/assets/images/type-2.png',
+          alt: 'Project Wikipedia Game Bot',
+        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
@@ -76,20 +81,21 @@ const ProjectList = () => (
       />
 
       <Project
-        name="RapidsAI Open Source"
+        name="RAPIDS.ai Docstring Validation"
         description="Contributing to automating docstring valida-
         tion"
         link="https://github.com/ShahRishi/minihacks-2022"
-        img={{ src: '/assets/images/type-2.png', alt: 'Project Wikipedia Game Bot' }}
+        img={{
+          src: '/assets/images/type-2.png',
+          alt: 'Project Wikipedia Game Bot',
+        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
-            <Tags color={ColorTags.SKY}>Scikit-learn</Tags>
-            <Tags color={ColorTags.EMERALD}>Hackathon</Tags>
+            <Tags color={ColorTags.EMERALD}>Open Source</Tags>
           </>
         }
       />
-      
     </div>
   </Section>
 );
